@@ -19,8 +19,9 @@ public class IHMConsole implements IhmI{
 	}
 	
 	public Coords demanderPlacement(PlateauHex plateau) {
-		System.out.println(DemanderProchainCoup.promptCase(plateau));
-		return null; 
+		return DemanderProchainCoup.promptCase(plateau);
+		 
+		 
 	}
 
 }
